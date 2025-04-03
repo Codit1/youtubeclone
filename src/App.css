@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+.mantine-Menu-dropdown{
+  background-color: #0f0f0f;
+}
+
+@theme {
+    --breakpoint-xxs: 427px;
+    --breakpoint-mdxs: 541px;
+    --breakpoint-xmd: 790px;
+  }
+
+/* *{
+    outline: 1px solid red;
+} */

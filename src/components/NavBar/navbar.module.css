@@ -1,0 +1,22 @@
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: var(--mantine-font-size-sm);
+    font-weight: 500;
+    height: 44px;
+    line-height: 44px;
+    background: transparent;
+    color: whitesmoke;
+  
+    &:hover {
+      background-color: #575555;
+    }
+  
+    &[data-active] {
+      &,
+      &:hover {
+        background-color: #272727;
+      }
+    }
+  }
